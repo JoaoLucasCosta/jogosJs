@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;  /* Ocupa toda a altura da tela */
+    display: flex;  /* Usando Flexbox para centralizar o conteúdo */
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;  /* Cor de fundo suave */
+  }
+
+  .container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .saudacao {
+    font-size: 1.5em;
+    color: #4CAF50;  /* Cor verde para a saudação */
+    font-weight: bold;
+  }
+
+
+

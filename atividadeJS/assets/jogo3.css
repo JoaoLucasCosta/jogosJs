@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;  /* Garantir que o body ocupe toda a altura da tela */
+    margin: 0;     /* Remover margem padrão do body */
+    display: flex; /* Ativar flexbox no body */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra sutil */
+    width: 300px;   /* Largura da div centralizada */
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.result.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.result.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.result.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}

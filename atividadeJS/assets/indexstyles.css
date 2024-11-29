@@ -1,0 +1,59 @@
+.gameList {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center; 
+  padding: 20px;
+}
+
+  /* Estilo para o corpo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #4CAF50, #2E8B57);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+/* Contêiner principal */
+.gameList {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px; 
+  width: 90%; 
+  max-width: 800px; 
+}
+
+/* Botões */
+.gameList button {
+  background-color: #FFFFFF; 
+  color: #4CAF50; 
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* Efeito ao passar o mouse nos botões */
+.gameList button:hover {
+  background-color: #4CAF50; 
+  color: white; 
+  transform: scale(1.05); 
+}
+
+/* Estilo para os itens de lista (ul) */
+.gameList button ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
